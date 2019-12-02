@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import Movies from './Movies';
-import {rateMovie} from '../redux/ActionCreators';
+import {rateMovie, fetchMovies} from '../redux/ActionCreators';
 
 class Main extends React.Component {
     componentDidMount() {
