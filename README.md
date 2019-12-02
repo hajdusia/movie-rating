@@ -1,6 +1,6 @@
 # Movie rating
 
-## Getting started
+### Getting started
 Install recent versions of MongoDB, Java, Gradle, Node.js
 
 ### Running the application
