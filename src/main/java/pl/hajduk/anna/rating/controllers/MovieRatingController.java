@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/movie-rating")
+@CrossOrigin(origins = "http://localhost:3000")
 public class MovieRatingController {
     private MovieRepository movieRepository;
     private RateRepository rateRepository;
